@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C168C70D1E24898F00182B3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C70C1E24898F00182B3F /* AppDelegate.swift */; };
-		C168C70F1E24898F00182B3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C70E1E24898F00182B3F /* ViewController.swift */; };
-		C168C7121E24898F00182B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168C7101E24898F00182B3F /* Main.storyboard */; };
-		C168C7141E24898F00182B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C168C7131E24898F00182B3F /* Assets.xcassets */; };
-		C168C7171E24898F00182B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168C7151E24898F00182B3F /* LaunchScreen.storyboard */; };
 		C168C7221E24898F00182B3F /* toolBoxsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C7211E24898F00182B3F /* toolBoxsTests.swift */; };
 		C168C72D1E24898F00182B3F /* toolBoxsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C72C1E24898F00182B3F /* toolBoxsUITests.swift */; };
+		C168C75D1E248B0900182B3F /* AddThingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C74D1E248B0900182B3F /* AddThingTableViewController.swift */; };
+		C168C75E1E248B0900182B3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C74E1E248B0900182B3F /* AppDelegate.swift */; };
+		C168C75F1E248B0900182B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C168C74F1E248B0900182B3F /* Assets.xcassets */; };
+		C168C7601E248B0900182B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168C7511E248B0900182B3F /* LaunchScreen.storyboard */; };
+		C168C7611E248B0900182B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168C7531E248B0900182B3F /* Main.storyboard */; };
+		C168C7621E248B0900182B3F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C168C7551E248B0900182B3F /* Info.plist */; };
+		C168C7631E248B0900182B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168C7561E248B0900182B3F /* LaunchScreen.storyboard */; };
+		C168C7641E248B0900182B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168C7571E248B0900182B3F /* Main.storyboard */; };
+		C168C7651E248B0900182B3F /* ThingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C7581E248B0900182B3F /* ThingDetailViewController.swift */; };
+		C168C7661E248B0900182B3F /* ThingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C7591E248B0900182B3F /* ThingTableViewCell.swift */; };
+		C168C7671E248B0900182B3F /* ThingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C75A1E248B0900182B3F /* ThingTableViewController.swift */; };
+		C168C7681E248B0900182B3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C75C1E248B0900182B3F /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +42,26 @@
 
 /* Begin PBXFileReference section */
 		C168C7091E24898F00182B3F /* toolBoxs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toolBoxs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C168C70C1E24898F00182B3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C168C70E1E24898F00182B3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C168C7111E24898F00182B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C168C7131E24898F00182B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C168C7161E24898F00182B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C168C7181E24898F00182B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C168C71D1E24898F00182B3F /* toolBoxsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toolBoxsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C168C7211E24898F00182B3F /* toolBoxsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolBoxsTests.swift; sourceTree = "<group>"; };
 		C168C7231E24898F00182B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C168C7281E24898F00182B3F /* toolBoxsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toolBoxsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C168C72C1E24898F00182B3F /* toolBoxsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolBoxsUITests.swift; sourceTree = "<group>"; };
 		C168C72E1E24898F00182B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C168C74C1E248B0800182B3F /* toolBoxs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "toolBoxs-Bridging-Header.h"; sourceTree = "<group>"; };
+		C168C74D1E248B0900182B3F /* AddThingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddThingTableViewController.swift; sourceTree = "<group>"; };
+		C168C74E1E248B0900182B3F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C168C74F1E248B0900182B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C168C7521E248B0900182B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C168C7541E248B0900182B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		C168C7551E248B0900182B3F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C168C7561E248B0900182B3F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C168C7571E248B0900182B3F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C168C7581E248B0900182B3F /* ThingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingDetailViewController.swift; sourceTree = "<group>"; };
+		C168C7591E248B0900182B3F /* ThingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingTableViewCell.swift; sourceTree = "<group>"; };
+		C168C75A1E248B0900182B3F /* ThingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingTableViewController.swift; sourceTree = "<group>"; };
+		C168C75B1E248B0900182B3F /* toolBox-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "toolBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		C168C75C1E248B0900182B3F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +112,19 @@
 		C168C70B1E24898F00182B3F /* toolBoxs */ = {
 			isa = PBXGroup;
 			children = (
-				C168C70C1E24898F00182B3F /* AppDelegate.swift */,
-				C168C70E1E24898F00182B3F /* ViewController.swift */,
-				C168C7101E24898F00182B3F /* Main.storyboard */,
-				C168C7131E24898F00182B3F /* Assets.xcassets */,
-				C168C7151E24898F00182B3F /* LaunchScreen.storyboard */,
-				C168C7181E24898F00182B3F /* Info.plist */,
+				C168C74D1E248B0900182B3F /* AddThingTableViewController.swift */,
+				C168C74E1E248B0900182B3F /* AppDelegate.swift */,
+				C168C74F1E248B0900182B3F /* Assets.xcassets */,
+				C168C7501E248B0900182B3F /* Base.lproj */,
+				C168C7551E248B0900182B3F /* Info.plist */,
+				C168C7561E248B0900182B3F /* LaunchScreen.storyboard */,
+				C168C7571E248B0900182B3F /* Main.storyboard */,
+				C168C7581E248B0900182B3F /* ThingDetailViewController.swift */,
+				C168C7591E248B0900182B3F /* ThingTableViewCell.swift */,
+				C168C75A1E248B0900182B3F /* ThingTableViewController.swift */,
+				C168C75B1E248B0900182B3F /* toolBox-Bridging-Header.h */,
+				C168C75C1E248B0900182B3F /* ViewController.swift */,
+				C168C74C1E248B0800182B3F /* toolBoxs-Bridging-Header.h */,
 			);
 			path = toolBoxs;
 			sourceTree = "<group>";
@@ -123,6 +145,15 @@
 				C168C72E1E24898F00182B3F /* Info.plist */,
 			);
 			path = toolBoxsUITests;
+			sourceTree = "<group>";
+		};
+		C168C7501E248B0900182B3F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C168C7511E248B0900182B3F /* LaunchScreen.storyboard */,
+				C168C7531E248B0900182B3F /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +224,7 @@
 				TargetAttributes = {
 					C168C7081E24898F00182B3F = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					C168C71C1E24898F00182B3F = {
@@ -232,9 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C168C7171E24898F00182B3F /* LaunchScreen.storyboard in Resources */,
-				C168C7141E24898F00182B3F /* Assets.xcassets in Resources */,
-				C168C7121E24898F00182B3F /* Main.storyboard in Resources */,
+				C168C7621E248B0900182B3F /* Info.plist in Resources */,
+				C168C7611E248B0900182B3F /* Main.storyboard in Resources */,
+				C168C75F1E248B0900182B3F /* Assets.xcassets in Resources */,
+				C168C7641E248B0900182B3F /* Main.storyboard in Resources */,
+				C168C7631E248B0900182B3F /* LaunchScreen.storyboard in Resources */,
+				C168C7601E248B0900182B3F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C168C70F1E24898F00182B3F /* ViewController.swift in Sources */,
-				C168C70D1E24898F00182B3F /* AppDelegate.swift in Sources */,
+				C168C7681E248B0900182B3F /* ViewController.swift in Sources */,
+				C168C7661E248B0900182B3F /* ThingTableViewCell.swift in Sources */,
+				C168C7651E248B0900182B3F /* ThingDetailViewController.swift in Sources */,
+				C168C75E1E248B0900182B3F /* AppDelegate.swift in Sources */,
+				C168C7671E248B0900182B3F /* ThingTableViewController.swift in Sources */,
+				C168C75D1E248B0900182B3F /* AddThingTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +335,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C168C7101E24898F00182B3F /* Main.storyboard */ = {
+		C168C7511E248B0900182B3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C168C7111E24898F00182B3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C168C7151E24898F00182B3F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C168C7161E24898F00182B3F /* Base */,
+				C168C7521E248B0900182B3F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C168C7531E248B0900182B3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C168C7541E248B0900182B3F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,10 +451,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = toolBoxs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ntou.toolBoxs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "toolBoxs/toolBoxs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +466,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = toolBoxs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ntou.toolBoxs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "toolBoxs/toolBoxs-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +549,7 @@
 				C168C7331E24898F00182B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C168C7341E24898F00182B3F /* Build configuration list for PBXNativeTarget "toolBoxsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +558,7 @@
 				C168C7361E24898F00182B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C168C7371E24898F00182B3F /* Build configuration list for PBXNativeTarget "toolBoxsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +567,7 @@
 				C168C7391E24898F00182B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
